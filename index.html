@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MouvTotal</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Outfit:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="topbar">
+  <a>🚚 Envío gratis en compras +$3.000 ·📍 Florida, Uruguay ·🔒 Pago 100% seguro</a>
+</div>
+
+<!-- NAV -->
+<nav class="nav">
+  <div class="logo">MOUV <span>TOTAL</span></div>
+  <button class="nav-hamburger" id="hamburger" aria-label="Menú">
+    <span></span><span></span><span></span>
+  </button>
+  <ul class="nav-links" id="nav-links">
+    <li><a href="index.html" class="active">Inicio</a></li>
+    <li><a href="#">Ropa</a></li>
+    <li><a href="#">Accesorios</a></li>
+    <li><a href="#">Equipamiento</a></li>
+    <li><a href="#">Novedades</a></li>
+    <li><a href="#">Ofertas</a></li>
+  </ul>
+  <div class="nav-right">
+    <a href="#" class="nav-icon-btn" aria-label="Buscar">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+        <circle cx="11" cy="11" r="7"/><path d="M21 21l-4.35-4.35"/>
+      </svg>
+    </a>
+    <a href="#" class="nav-icon-btn" aria-label="Mi cuenta">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+        <circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/>
+      </svg>
+    </a>
+    <button class="btn-cart">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" style="width:14px;height:14px">
+        <path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/>
+      </svg>
+      <span class="cart-count">0</span>
+    </button>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <video id="myHeroVideo" autoplay muted playsinline class="hero-video">
+    <source src="media/hero-video.mp4" type="video/mp4">
+    Tu navegador no soporta videos.
+  </video>
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <p class="hero-tag">Nueva Colección · 2026</p>
+    <h1>Encuentra tu<br><em>estilo deportivo</em></h1>
+    <p class="hero-sub">Ropa, accesorios y equipamiento para todos los deportes</p>
+    <div class="hero-ctas">
+      <a href="#" class="btn-primary">Explorar ahora</a>
+      <a href="#" class="btn-ghost">Ver lookbook →</a>
+    </div>
+  </div>
+</section>
+
+<!-- MARQUEE -->
+<div class="marquee-strip">
+  <div class="marquee-inner">
+    <div class="marquee-item">Ropa Deportiva</div>
+    <div class="marquee-item">Calzado Premium</div>
+    <div class="marquee-item">Accesorios</div>
+    <div class="marquee-item">Hombres</div>
+    <div class="marquee-item">Mujeres</div>
+    <div class="marquee-item">Jóvenes</div>
+    <div class="marquee-item">Mouv Total</div>
+    <div class="marquee-item">Nueva Colección</div>
+    <div class="marquee-item">Ropa Deportiva</div>
+    <div class="marquee-item">Calzado Premium</div>
+    <div class="marquee-item">Accesorios</div>
+    <div class="marquee-item">Hombres</div>
+    <div class="marquee-item">Mujeres</div>
+    <div class="marquee-item">Jóvenes</div>
+    <div class="marquee-item">Mouv Total</div>
+    <div class="marquee-item">Nueva Colección</div>
+  </div>
+</div>
+
+<!-- CATEGORIES -->
+<section class="section">
+    <div class="section-header">
+        <div>
+            <div class="section-tag">Colecciones</div>
+            <h2 class="section-title">Encontrá tu <strong>categoría</strong></h2>
+        </div>
+        <a href="#" class="section-link">Ver todo →</a>
+    </div>
+    <div class="categories">
+        <div class="cat-card">
+            <div class="cat-bg cat-bg-joven"></div>
+            <div class="cat-pattern"></div>
+            <div class="cat-corner">→</div>
+            <div class="cat-content">
+                <div class="cat-label">Next Gen</div>
+                <div class="cat-name">Jovenes</div>
+                <div class="cat-cta">Ver colección →</div>
+            </div>
+        </div>
+        <div class="cat-card">
+            <div class="cat-bg cat-bg-mujer"></div>
+            <div class="cat-pattern"></div>
+            <div class="cat-corner">→</div>
+            <div class="cat-content">
+                <div class="cat-label">Para ella</div>
+                <div class="cat-name">Mujeres</div>
+                <div class="cat-cta">Ver colección →</div>
+            </div>
+        </div>
+        <div class="cat-card">
+            <div class="cat-bg cat-bg-calzado"></div>
+            <div class="cat-pattern"></div>
+            <div class="cat-corner">→</div>
+            <div class="cat-content">
+                <div class="cat-label">Step up</div>
+                <div class="cat-name">Calzado</div>
+                <div class="cat-cta">Ver todo →</div>
+            </div>
+        </div>
+        <div class="cat-card">
+            <div class="cat-bg cat-bg-hombre"></div>
+            <div class="cat-pattern"></div>
+            <div class="cat-corner">→</div>
+            <div class="cat-content">
+                <div class="cat-label">Para el</div>
+                <div class="cat-name">Hombres</div>
+                <div class="cat-cta">Ver colección →</div>
+            </div>
+        </div>
+        <div class="cat-card">
+            <div class="cat-bg cat-bg-acces"></div>
+            <div class="cat-pattern"></div>
+            <div class="cat-corner">→</div>
+            <div class="cat-content">
+                <div class="cat-label">Completa el look</div>
+                <div class="cat-name">Accesorios</div>
+                <div class="cat-cta">Ver todo →</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FEATURED -->
+<section class="featured">
+    <div class="featured-inner">
+        <div class="featured-img">
+            <div class="featured-img-content">
+                <div class="featured-img-bg">★</div>
+            </div>
+            <div class="featured-tag-img">Producto destacado</div>
+            <div class="featured-price-tag">$4.990</div>
+        </div>
+        <div class="featured-info">
+            <div class="featured-tag">Lo más vendido · Temporada</div>
+            <h2 class="featured-title">
+                Zapatilla<br>
+                <em>Elite Runner</em><br>
+                Pro Series
+            </h2>
+            <p class="featured-desc">
+                Engineered para el rendimiento máximo. Suela de amortiguación reactiva, 
+                upper de malla transpirable y diseño que no pasa de moda.
+            </p>
+            <div class="featured-specs">
+                <div class="spec">
+                    <div class="spec-label">Material</div>
+                    <div class="spec-value">Malla Premium</div>
+                </div>
+                <div class="spec">
+                    <div class="spec-label">Suela</div>
+                    <div class="spec-value">React Foam</div>
+                </div>
+                <div class="spec">
+                    <div class="spec-label">Uso</div>
+                    <div class="spec-value">Running / Street</div>
+                </div>
+                <div class="spec">
+                    <div class="spec-label">Tallas</div>
+                    <div class="spec-value">35 — 46</div>
+                </div>
+            </div>
+            <button class="btn-dark">Agregar al carrito</button>
+        </div>
+    </div>
+</section>
+
+<!-- PROMISE -->
+<div class="promise">
+    <div class="promise-item">
+        <div class="promise-icon">🚚</div>
+        <div class="promise-title">Envío Gratis</div>
+        <div class="promise-text">En compras mayores a $3.000 a todo Uruguay</div>
+    </div>
+    <div class="promise-item">
+        <div class="promise-icon">↩</div>
+        <div class="promise-title">Devolución Fácil</div>
+        <div class="promise-text">30 días sin preguntas para cambios o devoluciones</div>
+    </div>
+    <div class="promise-item">
+        <div class="promise-icon">🔒</div>
+        <div class="promise-title">Pago Seguro</div>
+        <div class="promise-text">Todas las transacciones protegidas con SSL</div>
+    </div>
+    <div class="promise-item">
+        <div class="promise-icon">✦</div>
+        <div class="promise-title">Calidad Premium</div>
+        <div class="promise-text">Materiales de alta performance seleccionados</div>
+    </div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+    <div class="footer-brand">
+        <span class="logo">MOUV <span>TOTAL</span></span>
+        <p class="footer-desc">Ropa deportiva premium para quienes no tienen límites. Uruguay, 2026.</p>
+        <div class="footer-social">
+            <a class="social-btn" href="#">ig</a>
+            <a class="social-btn" href="#">fb</a>
+            <a class="social-btn" href="#">tt</a>
+            <a class="social-btn" href="#">yt</a>
+        </div>
+    </div>
+    <div class="footer-col">
+        <h4>Tienda</h4>
+        <ul>
+            <li><a href="#">Hombres</a></li>
+            <li><a href="#">Mujeres</a></li>
+            <li><a href="#">Jóvenes</a></li>
+            <li><a href="#">Calzado</a></li>
+            <li><a href="#">Accesorios</a></li>
+        </ul>
+    </div>
+    <div class="footer-col">
+        <h4>Ayuda</h4>
+        <ul>
+            <li><a href="#">Envíos</a></li>
+            <li><a href="#">Devoluciones</a></li>
+            <li><a href="#">Tallas</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </div>
+    <div class="footer-col">
+        <h4>Empresa</h4>
+        <ul>
+            <li><a href="#">Sobre nosotros</a></li>
+            <li><a href="#">Sustentabilidad</a></li>
+            <li><a href="#">Prensa</a></li>
+            <li><a href="#">Trabaja con nosotros</a></li>
+        </ul>
+    </div>
+</footer>
+<div class="footer-bottom">
+    <span class="footer-copy">© 2026 MOUV TOTAL — Todos los derechos reservados</span>
+    <span class="footer-copy">Florida, Uruguay</span>
+</div>
+
+<script src="script.js"></script>
+<script>
+  const hamburger = document.getElementById("hamburger");
+  const navLinks  = document.getElementById("nav-links");
+  hamburger.addEventListener("click", () => {
+    hamburger.classList.toggle("open");
+    navLinks.classList.toggle("open");
+  });
+  navLinks.querySelectorAll("a").forEach(a => {
+    a.addEventListener("click", () => {
+      hamburger.classList.remove("open");
+      navLinks.classList.remove("open");
+    });
+  });
+</script>
+</body>
+</html>
