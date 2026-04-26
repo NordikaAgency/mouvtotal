@@ -371,34 +371,34 @@ body {
 
 .cat-bg-joven {
     background-color: #252527;  /* se ve si la imagen falla */
-    background-image: url('../media/jovenes.jpg');  /* sin el ../ */
+    background-image: url('media/jovenes.jpg');  /* sin el ../ */
     background-size: cover;
     background-position: center;
 }
 
 .cat-bg-hombre {
     background-color: #252527;  /* se ve si la imagen falla */
-    background-image: url('../media/hombre.webp');  /* sin el ../ */
+    background-image: url('media/hombre.webp');  /* sin el ../ */
     background-size: cover;
     background-position: center;
 }
 
 .cat-bg-mujer {
     background-color: #252527;  /* se ve si la imagen falla */
-    background-image: url('../media/mujer.jpg');  /* sin el ../ */
+    background-image: url('media/mujer.jpg');  /* sin el ../ */
     background-size: cover;
     background-position: center;
 }
 .cat-bg-calzado {
     background-color: #252527;  /* se ve si la imagen falla */
-    background-image: url('../media/calzado.webp');  /* sin el ../ */
+    background-image: url('media/calzado.webp');  /* sin el ../ */
     background-size: cover;
     background-position: center;
 }
 
 .cat-bg-acces {
     background-color: #252527;  /* se ve si la imagen falla */
-    background-image: url('../media/gorras.png');  /* sin el ../ */
+    background-image: url('media/gorras.png');  /* sin el ../ */
     background-size: cover;
     background-position: center;
 }
